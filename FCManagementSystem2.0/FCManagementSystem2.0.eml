@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/FCManagementSystem2.0"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="sqlite-jdbc-3.16.1" value="project"/>
+		<level name="postgresql-42.2.5" value="project"/>
+		<level name="postgresql-42.2.51" value="project"/>
+	</levels>
+</component>
