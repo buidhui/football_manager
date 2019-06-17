@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="D.Player">
+   <children>
+       <ImageView fx:id="image" fitHeight="150.0" fitWidth="152.0" layoutX="60.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="258.0" layoutY="37.0" prefHeight="27.0" prefWidth="97.0" text="Minutes" />
+      <Label layoutX="258.0" layoutY="64.0" prefHeight="27.0" prefWidth="97.0" text="Tackles" />
+      <Label fx:id="minutes" layoutX="415.0" layoutY="37.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Label fx:id="tackles" layoutX="415.0" layoutY="64.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Label fx:id="inter" layoutX="415.0" layoutY="91.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Label layoutX="258.0" layoutY="91.0" prefHeight="27.0" prefWidth="126.0" text="Interceptions" />
+      <Label layoutX="258.0" layoutY="118.0" prefHeight="27.0" prefWidth="126.0" text="Fouls" />
+      <Label layoutX="258.0" layoutY="145.0" prefHeight="27.0" prefWidth="126.0" text="Offsides Won" />
+      <Label layoutX="258.0" layoutY="172.0" prefHeight="27.0" prefWidth="126.0" text="Clearance" />
+      <Label layoutX="258.0" layoutY="200.0" prefHeight="27.0" prefWidth="126.0" text="Dribble Passed" />
+      <Label layoutX="258.0" layoutY="232.0" prefHeight="27.0" prefWidth="126.0" text="Blocks" />
+      <Label layoutX="258.0" layoutY="259.0" prefHeight="27.0" prefWidth="126.0" text="Own Goals" />
+      <Label layoutX="258.0" layoutY="286.0" prefHeight="27.0" prefWidth="126.0" text="Ratings" />
+      <Label fx:id="fouls" layoutX="415.0" layoutY="118.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Label fx:id="offsides" layoutX="415.0" layoutY="145.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Label fx:id="clear" layoutX="415.0" layoutY="172.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Label fx:id="drb" layoutX="415.0" layoutY="200.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Label fx:id="blocks" layoutX="415.0" layoutY="232.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Label fx:id="owng" layoutX="415.0" layoutY="259.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Label fx:id="rating" layoutX="415.0" layoutY="286.0" prefHeight="27.0" prefWidth="68.0" text="Label" />
+      <Button layoutX="212.0" layoutY="345.0" mnemonicParsing="false" onAction="#update" styleClass="btn" text="Update" />
+      <Button layoutX="322.0" layoutY="345.0" mnemonicParsing="false" onAction="#delete" styleClass="btn" text="Delete" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="postgresql-42.2.5" />
+  <library name="postgresql-42.2.51">
+    <archive path="C:/Users/LENOVO/Downloads/postgresql-42.2.5.jar" />
+  </library>
+  <library name="sqlite-jdbc-3.16.1" />
+</eclipse-userlibraries>
+

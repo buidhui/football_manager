@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/sqlite-jdbc-3.16.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/postgresql-42.2.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/postgresql-42.2.51"/>
+	<classpathentry kind="lib" path="E:/Study/OOP/Java/FCManagementSystem2.0/postgresql-42.2.5.jar"/>
+	<classpathentry kind="output" path="out/production/FCManagementSystem2.0"/>
+</classpath>

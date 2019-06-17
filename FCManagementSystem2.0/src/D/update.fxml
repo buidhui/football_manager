@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="614.0" stylesheets="@style1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="D.Update">
+    <children>
+        <ImageView fx:id="image" fitHeight="150.0" fitWidth="152.0" layoutX="60.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="updatebtn" layoutX="80.0" layoutY="212.0" mnemonicParsing="false" onAction="#update" prefHeight="41.0" prefWidth="78.0" styleClass="btn1" text="Update" />
+      <TextField fx:id="offwon" layoutX="212.0" layoutY="253.0" prefHeight="39.0" prefWidth="171.0" promptText="Offsides won" />
+      <TextField fx:id="clear" layoutX="413.0" layoutY="31.0" prefHeight="39.0" prefWidth="171.0" promptText="Clearance" />
+      <TextField fx:id="dribpassed" layoutX="413.0" layoutY="85.0" prefHeight="39.0" prefWidth="171.0" promptText="Dribble passed" />
+      <TextField fx:id="fouls" layoutX="212.0" layoutY="201.0" prefHeight="39.0" prefWidth="171.0" promptText="Fouls" />
+      <TextField fx:id="tackles" layoutX="212.0" layoutY="85.0" prefHeight="39.0" prefWidth="171.0" promptText="Tackles" />
+      <TextField fx:id="inters" layoutX="212.0" layoutY="143.0" prefHeight="39.0" prefWidth="171.0" promptText="Interceptions" />
+      <TextField fx:id="minutes" layoutX="212.0" layoutY="31.0" prefHeight="39.0" prefWidth="171.0" promptText="Minutes" />
+      <TextField fx:id="blocks" layoutX="413.0" layoutY="143.0" prefHeight="39.0" prefWidth="171.0" promptText="Blocks" />
+      <TextField fx:id="owng" layoutX="413.0" layoutY="201.0" prefHeight="39.0" prefWidth="171.0" promptText="Goals" />
+      <TextField fx:id="ratings" layoutX="413.0" layoutY="253.0" prefHeight="39.0" prefWidth="171.0" promptText="Ratings" />
+    </children>
+</AnchorPane>
